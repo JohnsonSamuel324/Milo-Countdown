@@ -49,3 +49,27 @@ th {
 #countdown-timer {
     font-size: 1.25rem;
 }
+
+@media (min-width: 1024px) {
+    main {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        /* margin: 0 8rem; */
+    }
+    .milo-pic {
+        width: 50%;
+        height: 40%;
+        order: 1;
+    }
+    .milo-info {
+        width: 35%;
+    }
+}
+@media (min-width: 1440px) { 
+    .milo-pic {
+        width: 35%;
+        height: 50%;
+    }
+}
